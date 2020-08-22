@@ -17,7 +17,12 @@ const forecast = (city, callback) => {
           " is currently " +
           body.main.temp +
           " degress out and " +
-          body.weather[0].description
+          body.weather[0].description +
+          ". " +
+          "Lat: " +
+          body.coord.lat +
+          "Lon: " +
+          body.coord.lon
       );
     }
   });
