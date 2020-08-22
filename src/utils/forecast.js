@@ -21,7 +21,7 @@ const forecast = (city, callback) => {
           ". " +
           "Lat: " +
           body.coord.lat +
-          "Lon: " +
+          " Lon: " +
           body.coord.lon
       );
     }
